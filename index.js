@@ -8,8 +8,6 @@ app.use(cors()) ;
 app.use(express.json()) ;
 require('dotenv').config()
 
-// DB_USER: simple-crud-admin 
-// DB_PASS: 0HshizhRQF385g14
 
 
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
